@@ -1,0 +1,57 @@
+import java.io.Console;
+import java.nio.charset.Charset;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Scanner;
+import java.util.TimeZone;
+
+public class diamond {
+    //program 1
+    public static void butterfly_Pattern() {
+        int noOfRow = 5;
+        int odd1 = noOfRow + (noOfRow - 1);
+        int space1 = 1;
+        for (int row = 1; row <= noOfRow; row++) {
+            if (space1 < noOfRow) {
+                for (int i = 1; i < space1; i++) {
+                    System.out.print(" ");
+                }
+                if (odd1 > 1) {
+                    int l = 0;
+                    for (int column = 1; column <= odd1; column++) {
+                        if (noOfRow >= column) {
+                            l = l + 1;
+                        } else {
+                            l = l - 1;
+                        }
+                        System.out.print(l);
+                    }
+                    System.out.println();
+                    odd1 = odd1 - 2;
+                    space1 = space1 + 1;
+                }
+            }
+        }
+
+        int space = noOfRow - 1;
+        int odd = 1;
+        for (int row = 1; row <= noOfRow; row++) {
+            for (int j = 1; j <= space; j++) {
+                System.out.print(" ");
+            }
+            int k = 0;
+            for (int column = 1; column <= odd; column++) {
+                if (column <= row) {
+                    k = k + 1;
+                } else {
+                    k = k - 1;
+                }
+                System.out.print(k);
+            }
+            System.out.println();
+            odd = odd + 2;
+            space = space - 1;
+        }
+
+       }
+    }
