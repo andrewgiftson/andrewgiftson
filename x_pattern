@@ -1,0 +1,16 @@
+public static void x_pattern() {
+        int row, column, j, value;
+        value = 5;
+        for (row = 1; row <= value; row++) {
+            for (column = 1; column <= value; column++) {
+                if (row == column) {
+                    System.out.print(row);
+                } else if (((column + row) - 1) == value) {
+                    System.out.print(column);
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
