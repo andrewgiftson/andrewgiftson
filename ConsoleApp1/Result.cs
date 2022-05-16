@@ -36,12 +36,13 @@ namespace ConsoleApp1
                     p_No += 1;
                 }
             }
-            double positive = p_No / total_No;
-            double negative = n_No / total_No;
-            double zero = z_no / total_No;
-            Console.WriteLine(string.Format("0.000000",p_No));
-            Console.WriteLine(string.Format("0.000000",n_No));
-            Console.WriteLine(string.Format("0.000000", z_no));
+            double positive = (double)p_No / total_No;
+            double negative = (double)n_No / total_No;
+            double zero = (double)z_no / total_No;
+            Console.WriteLine(string.Format("{0:N6}", p_No));
+            Console.WriteLine(string.Format("{0:N6}",n_No));
+            Console.WriteLine(string.Format("{0:N6}", z_no));
+            Console.ReadLine();
 
         }
     }
