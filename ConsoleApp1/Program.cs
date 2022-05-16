@@ -10,9 +10,17 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            SpiralPrint spiralPrint = new SpiralPrint();
-            ReverseNumber reverseNumber = new ReverseNumber();
-            reverseNumber.reverseNumber(3);
+            //SpiralPrint spiralPrint = new SpiralPrint();
+            //ReverseNumber reverseNumber = new ReverseNumber();
+            //programmingknow1 programmingknow1 = new programmingknow1();
+            // programmingknow1.fishorcrab();
+
+            int n = Convert.ToInt32(Console.ReadLine().Trim());
+
+            List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+
+            Result.plusMinus(arr);
+
         }
     }
    
