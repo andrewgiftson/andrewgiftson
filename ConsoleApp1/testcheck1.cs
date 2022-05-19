@@ -8,18 +8,25 @@ namespace ConsoleApp1
 {
     class testcheck1
     {
-        public static void main(string[] args)
+        public  void testcheck()
         {
-            int i, j, k=1;
-            for(i=1;i<5;i++)
+            int[] a = { 1, 0, 1 };
+            int[] b = { 0, 1, 0 };
+            int alice = 0, bob = 0;
+            int count = a.Count();
+            for (int i = 0; i < count; i++)
             {
-                for(j=1;j<=i;j++)
+                if (a[i] > b[i])
                 {
-                    Console.Write(k+++" ");
+                    alice = alice + 1;
                 }
-                Console.WriteLine();      
+                else
+                {
+                    bob = bob + 1;
+                }
             }
-          
-        }
+            Console.WriteLine(alice +" "+ bob);
+            Console.ReadLine();
+         }
     }
 }

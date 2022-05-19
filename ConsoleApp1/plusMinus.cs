@@ -14,7 +14,7 @@ namespace ConsoleApp1
      * The function accepts INTEGER_ARRAY arr as parameter.
      */
 
-        public static void plusMinus(List<int> arr)
+        public static void pM(List<int> arr)
         {
             int p_No = 0;
             int n_No = 0;
