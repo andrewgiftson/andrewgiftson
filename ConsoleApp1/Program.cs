@@ -19,7 +19,7 @@ namespace ConsoleApp1
 
             List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 
-            Result.plusMinus(arr);
+            plusMinus.plusMinus(arr);
 
         }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Result
+    class plusMinus
     {
         /*
      * Complete the 'plusMinus' function below.
@@ -39,9 +39,9 @@ namespace ConsoleApp1
             double positive = (double)p_No / total_No;
             double negative = (double)n_No / total_No;
             double zero = (double)z_no / total_No;
-            Console.WriteLine(string.Format("{0:N6}", p_No));
-            Console.WriteLine(string.Format("{0:N6}",n_No));
-            Console.WriteLine(string.Format("{0:N6}", z_no));
+            Console.WriteLine(string.Format("{0:N6}", positive));
+            Console.WriteLine(string.Format("{0:N6}",negative));
+            Console.WriteLine(string.Format("{0:N6}", zero));
             Console.ReadLine();
 
         }
