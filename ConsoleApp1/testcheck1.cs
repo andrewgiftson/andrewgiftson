@@ -10,23 +10,24 @@ namespace ConsoleApp1
     {
         public  void testcheck()
         {
-            int[] a = { 1, 0, 1 };
-            int[] b = { 0, 1, 0 };
-            int alice = 0, bob = 0;
-            int count = a.Count();
-            for (int i = 0; i < count; i++)
+            int add1 = 0;
+            int add2 = 0;
+            int[,] ar = new int[,] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+            for(int i =0; i < ar.GetLength(0); i++)
             {
-                if (a[i] > b[i])
-                {
-                    alice = alice + 1;
-                }
-                else
-                {
-                    bob = bob + 1;
-                }
+                add1 += ar[i, i];
             }
-            Console.WriteLine(alice +" "+ bob);
+            //------------------
+            int k = 0;
+            for(int j=(ar.GetLength(0)-1);j>=0;j--)
+            {
+                add2 += ar[j,k];
+                k++;
+            }
+
+            Console.WriteLine(add1);
+            Console.WriteLine(add2);
             Console.ReadLine();
-         }
+        }
     }
 }
