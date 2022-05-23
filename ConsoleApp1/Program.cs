@@ -14,13 +14,14 @@ namespace ConsoleApp1
             //ReverseNumber reverseNumber = new ReverseNumber();
             //programmingknow1 programmingknow1 = new programmingknow1();
             // programmingknow1.fishorcrab();
-            testcheck1 test = new testcheck1();
-            test.testcheck();
+            plusMinus1.plusMinus(q);
             /*int n = Convert.ToInt32(Console.ReadLine().Trim());
 
             List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 
             plusMinus.pM(arr);*/
+
+
 
         }
     }
