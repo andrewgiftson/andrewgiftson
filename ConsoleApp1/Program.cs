@@ -15,16 +15,20 @@ namespace ConsoleApp1
             //ReverseNumber reverseNumber = new ReverseNumber();
             //programmingknow1 programmingknow1 = new programmingknow1();
             // programmingknow1.fishorcrab();
-            List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 
+            List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
             Result.miniMaxSum(arr);
-            /*int n = Convert.ToInt32(Console.ReadLine().Trim());
-
+            int n = Convert.ToInt32(Console.ReadLine().Trim());
             List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
-
             plusMinus.pM(arr);
 
-
+        ------------------------------------
+        //Time convert from 12 to 24
+        ------------------------------------
+        //DateTime d = DateTime.Parse(s);
+        //string dat = d.ToString("HH:mm:ss");
+        //return dat;
+        ------------------------------------
 
         }*/
         public static void Main(String[] args)
