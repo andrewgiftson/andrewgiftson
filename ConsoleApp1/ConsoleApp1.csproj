@@ -52,6 +52,7 @@
     <Compile Include="Result.cs" />
     <Compile Include="ReverseNumber.cs" />
     <Compile Include="SpiralPrint.cs" />
+    <Compile Include="studentGrading.cs" />
     <Compile Include="testcheck1.cs" />
   </ItemGroup>
   <ItemGroup>

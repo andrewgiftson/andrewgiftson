@@ -42,11 +42,11 @@ namespace ConsoleApp1
 }
 class Solution
 {
-    public static void Main(string[] args)
-    {
-        int n = Convert.ToInt32(Console.ReadLine().Trim());
+    //public static void Main(string[] args)
+    //{
+    //    int n = Convert.ToInt32(Console.ReadLine().Trim());
 
-            FizzBuzz.fizzBuzz(n);
-    }
+    //        FizzBuzz.fizzBuzz(n);
+    //}
 }
 }
