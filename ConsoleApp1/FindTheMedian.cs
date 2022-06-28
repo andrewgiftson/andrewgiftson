@@ -8,8 +8,9 @@ namespace ConsoleApp1
 {
     class findTheMedian
     {
-        public static void Main(string[] args)
+        public static void meridian(string[] args)
         {
+           
             //List<int> arr = new List<int>();
             //arr.Add(5);
             //arr.Add(4);
@@ -27,16 +28,16 @@ namespace ConsoleApp1
             //    div = temp2 / 2;
             //    Console.WriteLine(temp1[div]);
             //}
-            int i, n = 4, j, k = 1;
-            for (i = 0; i < n; i++)
-            {
-                for (j = 0; j < i + 1; j++)
-                {
-                    Console.Write(k+++" ");
-                }
-                Console.WriteLine();
-            }
-            Console.ReadLine();
+            //int i, n = 4, j, k = 1;
+            //for (i = 0; i < n; i++)
+            //{
+            //    for (j = 0; j < i + 1; j++)
+            //    {
+            //        Console.Write(k+++" ");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.ReadLine();
         }
     }
 }
