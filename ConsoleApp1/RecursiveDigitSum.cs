@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     class RecursiveDigitSum
     {
-        public static void Main(string[] args)
+        public static void recursiveDigit(string[] args)
         {
             string n = "861568688536788999";
             ulong k = 100000;
