@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CountAppleOrange.cs" />
+    <Compile Include="CountingValley.cs" />
     <Compile Include="findTheMedian.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="longIntAdd.cs" />

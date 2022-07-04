@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     class NewYearChaos
     {
-        public static void Main(string[] args)
+        public static void NewyearChaos(string[] args)
         {
             //input
             List<int> q = new List<int>();
