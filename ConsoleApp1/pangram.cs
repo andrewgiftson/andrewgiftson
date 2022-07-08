@@ -29,7 +29,7 @@ namespace ConsoleApp1
             {
                 result = "not pangram";
             }
-            return result;
+            Console.WriteLine( result);
         }
     }
 }

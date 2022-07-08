@@ -49,5 +49,10 @@ namespace ConsoleApp1
             else
                 Console.WriteLine("NO");
         }
+
+        internal static string twoArrays(int k, List<int> a, List<int> b)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     public class CountingValley
     {
-        public static void Main(string[] args)
+        public static void counting(string[] args)
         {
             string path = "UDDDUDUU";   // UDDDUDUU DDUUDDUDUUUD
             /*	_          /\_
