@@ -43,16 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CountAppleOrange.cs" />
+    <Compile Include="CountingValley.cs" />
+    <Compile Include="findTheMedian.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="longIntAdd.cs" />
-    <Compile Include="median.cs" />
+    <Compile Include="NewYearChaos.cs" />
+    <Compile Include="pangram.cs" />
+    <Compile Include="PermutingTwoArrays.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="programmingknow1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="plusMinus.cs" />
+    <Compile Include="RecursiveDigitSum.cs" />
     <Compile Include="Result.cs" />
     <Compile Include="ReverseNumber.cs" />
     <Compile Include="SpiralPrint.cs" />
+    <Compile Include="studentGrading.cs" />
     <Compile Include="testcheck1.cs" />
   </ItemGroup>
   <ItemGroup>
