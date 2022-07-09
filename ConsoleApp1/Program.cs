@@ -31,7 +31,7 @@ namespace ConsoleApp1
         ------------------------------------
 
         }*/
-        public static void Main(String[] args)
+       /* public static void Main(String[] args)
         {
             /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution */
             string[] inputs = { "S;M;plasticCup()", "C;V;mobile phone" };
@@ -69,7 +69,7 @@ namespace ConsoleApp1
                 }
                 Console.WriteLine(result);
             }
-        }
+        }*/
 
 
 

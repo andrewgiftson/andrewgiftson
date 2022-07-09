@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="longIntAdd.cs" />
+    <Compile Include="median.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="programmingknow1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
