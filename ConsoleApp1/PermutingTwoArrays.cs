@@ -7,7 +7,7 @@ namespace ConsoleApp1
 {
     public class PermutingTwoArrays
     {
-        public static void Main(string[] args)
+        public static void twoarrays(string[] args)
         {
             int k = 10;
             List<int> A = new List<int>();
