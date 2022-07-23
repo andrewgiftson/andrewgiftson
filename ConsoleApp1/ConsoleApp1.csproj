@@ -52,6 +52,7 @@
     <Compile Include="NewYearChaos.cs" />
     <Compile Include="pangram.cs" />
     <Compile Include="PermutingTwoArrays.cs" />
+    <Compile Include="prepare.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="programmingknow1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
