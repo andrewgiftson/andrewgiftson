@@ -11,12 +11,19 @@ namespace ConsoleApp1
         public static void Main(string[] args)
         {
             int n = 5;
-            int k = 1;
-            for (int i = 0;i < n; i++)
-            {                
-                for (int j = 0; j <= i; j++)
+            for(int i=1;i<=n;i++)
+            {
+                for(int j=1;j<=n-i; j++)
                 {
-                    Console.Write(k+++" ");
+                    Console.Write(" ");
+                }
+                for(int j=1;j<=i;j++)
+                {
+                    Console.Write(j);
+                }
+                for(int k=i-1;k>0 ; k--)
+                {
+                    Console.Write(k);
                 }
                 Console.WriteLine();
             }
