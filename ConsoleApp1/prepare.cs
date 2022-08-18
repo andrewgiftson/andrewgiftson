@@ -10,17 +10,28 @@ namespace ConsoleApp1
     {
         public static void Main(string[] args)
         {
-            int n = 5;
-            int k = 1;
-            for (int i = 0;i < n; i++)
-            {                
-                for (int j = 0; j <= i; j++)
+            List<int> ar = new List<int>();
+            ar.Add(10); ar.Add(20); ar.Add(20); ar.Add(10); ar.Add(10); ar.Add(30); ar.Add(50); ar.Add(10); ar.Add(20);
+            int n = 9;
+            int count = 0;
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
                 {
-                    Console.Write(k+++" ");
+                    if (i != j)
+                    {
+                        if (ar[i] == ar[j])
+                        {
+                            n -= 2;
+                            count++;
+                            ar.Remove(ar[i]);
+                            ar.Remove(ar[j]);
+                        }
+                    }
                 }
-                Console.WriteLine();
             }
-            Console.ReadLine();
+            Console.WriteLine(count);
+             Console.ReadLine();
         }
     }
 }
