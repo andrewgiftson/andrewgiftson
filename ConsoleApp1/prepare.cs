@@ -20,22 +20,22 @@ namespace ConsoleApp1
                 {
                     if (i != j)
                     {
-                        if (ar[i] == ar[j])
+                        if (ar[i] == ar[j]) // comparing list value 0 == 1 0 == 2 
                         {
-                            n -= 2;
-                            count++;
+                            n -= 2; // changing the n value
+                            count++; // adding count
                             //Console.WriteLine("i=" + ar[i] + "," + i);
-                            ar.Remove(ar[i]);
+                            ar.Remove(ar[i]); //removing first value
 
-                            if (i > j || i==j)
+                            if (i > j || i==j) //if 
                             {
                                // Console.WriteLine("j+1=" + ar[j+1]+","+(j+1));
-                                ar.Remove(ar[j+1]);
+                                ar.Remove(ar[j+1]); //removing second value
                             }
                             else if(i<j )
                             {
                                 //Console.WriteLine("j-1=" + ar[j-1] + "," + (j-1));
-                                ar.Remove(ar[j - 1]);
+                                ar.Remove(ar[j - 1]); //removing second value
                             }
                             
                         }
@@ -44,7 +44,7 @@ namespace ConsoleApp1
             }
             for(int k=0;k<n;k++)
             {
-                Console.WriteLine(ar[k]);
+                Console.WriteLine(ar[k]); //ptinting remaining
             }
             Console.WriteLine("Repeat = "+count);
              Console.ReadLine();
