@@ -60,6 +60,7 @@
     <Compile Include="RecursiveDigitSum.cs" />
     <Compile Include="Result.cs" />
     <Compile Include="ReverseNumber.cs" />
+    <Compile Include="SalesByMarch.cs" />
     <Compile Include="SpiralPrint.cs" />
     <Compile Include="studentGrading.cs" />
     <Compile Include="testcheck1.cs" />

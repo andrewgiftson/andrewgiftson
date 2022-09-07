@@ -6,48 +6,36 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-     public class prepare
+    public class prepare
     {
         public static void Main(string[] args)
         {
             List<int> ar = new List<int>();
-            ar.Add(1); ar.Add(1); ar.Add(3); ar.Add(1); ar.Add(2); ar.Add(1); ar.Add(3); ar.Add(3); ar.Add(3);ar.Add(3);
-            int n = 10;
-            int count = 0;
-            for (int i = 0; i < n; i++)
-            {
-                for (int j = 0; j < n; j++)
-                {
-                    if (i != j)
-                    {
-                        if (ar[i] == ar[j])
-                        {
-                            n -= 2;
-                            count++;
-                            //Console.WriteLine("i=" + ar[i] + "," + i);
-                            ar.Remove(ar[i]);
+            ar.Add(1); ar.Add(2); ar.Add(3); ar.Add(4); ar.Add(1); ar.Add(2); ar.Add(3); ar.Add(4); ar.Add(1); ar.Add(2);
 
-                            if (i > j || i==j)
-                            {
-                               // Console.WriteLine("j+1=" + ar[j+1]+","+(j+1));
-                                ar.Remove(ar[j+1]);
-                            }
-                            else if(i<j )
-                            {
-                                //Console.WriteLine("j-1=" + ar[j-1] + "," + (j-1));
-                                ar.Remove(ar[j - 1]);
-                            }
-                            
-                        }
-                    }
+            var dict = new Dictionary<int, int>();
+            for(int i= 0; i <ar.Count() ; i++)
+            {
+                if (!dict.ContainsKey(ar[i]))
+                {
+                    dict.Add(ar[i], 1);
+                }
+                else
+                {
+                    dict[ar[i]]++;
                 }
             }
-            for(int k=0;k<n;k++)
+            var max = dict.Values.Max();
+            var stack = new Stack<int>();
+            foreach(var item in dict)
             {
-                Console.WriteLine(ar[k]);
+                if(max==item.Value)
+                {
+                    stack.Push(item.Key);
+                }
             }
-            Console.WriteLine("Repeat = "+count);
-             Console.ReadLine();
+            var min = stack.Min();
+            return min;
         }
     }
-}
+} 
