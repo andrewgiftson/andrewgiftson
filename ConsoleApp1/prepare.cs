@@ -12,7 +12,7 @@ namespace ConsoleApp1
         {
             List<int> ar = new List<int>();
             ar.Add(1); ar.Add(2); ar.Add(3); ar.Add(4); ar.Add(1); ar.Add(2); ar.Add(3); ar.Add(4); ar.Add(1); ar.Add(2);
-
+            //implementation
             var dict = new Dictionary<int, int>();
             for(int i= 0; i <ar.Count() ; i++)
             {
@@ -35,7 +35,7 @@ namespace ConsoleApp1
                 }
             }
             var min = stack.Min();
-            return min;
+            Console.WriteLine( "min= "+min);
         }
     }
 } 

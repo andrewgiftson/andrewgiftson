@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BetweenTwoSets.cs" />
     <Compile Include="CountAppleOrange.cs" />
     <Compile Include="CountingValley.cs" />
     <Compile Include="Drawing.cs" />
