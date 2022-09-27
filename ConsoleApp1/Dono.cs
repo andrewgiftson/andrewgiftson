@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class prepare
+    public class Dono
     {
-        public static void Main(string[] args)
+        public static void Donos(string[] args)
         {
             List<int> ar = new List<int>();
             ar.Add(1); ar.Add(2); ar.Add(3); ar.Add(4); ar.Add(1); ar.Add(2); ar.Add(3); ar.Add(4); ar.Add(1); ar.Add(2);
