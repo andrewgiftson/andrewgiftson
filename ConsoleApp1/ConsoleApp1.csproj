@@ -50,6 +50,7 @@
     <Compile Include="Drawing.cs" />
     <Compile Include="findTheMedian.cs" />
     <Compile Include="FizzBuzz.cs" />
+    <Compile Include="forming_a_magic_square.cs" />
     <Compile Include="longIntAdd.cs" />
     <Compile Include="NewYearChaos.cs" />
     <Compile Include="pangram.cs" />
