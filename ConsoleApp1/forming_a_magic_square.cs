@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     internal class forming_a_magic_square
     {
-        public static void Main(string[] args)
+        public static void FormMagicSquare()
         {
             const string dataFmt = "{0,-30}{1}";
             const string timeFmt = "{0,-30}{1:MM-dd-yyyy HH:mm}";

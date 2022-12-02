@@ -66,6 +66,7 @@
     <Compile Include="SalesByMarch.cs" />
     <Compile Include="SpiralPrint.cs" />
     <Compile Include="studentGrading.cs" />
+    <Compile Include="SuperReducedStringClass.cs" />
     <Compile Include="testcheck1.cs" />
     <Compile Include="testpuzzle1.cs" />
   </ItemGroup>
